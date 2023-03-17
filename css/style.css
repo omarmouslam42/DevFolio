@@ -1,0 +1,514 @@
+header{
+    background-image: url(../imag/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.link{
+    position: relative;
+   
+}
+
+.link::after{
+    content: "";
+    height: 2px;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.link:hover::after{
+   width: 40px;
+}
+
+.navbar-logo{
+    font-size: 30px;
+    text-decoration: none;
+}
+.line::after{
+   content: "";
+   height: 2px;
+   width: 40px;
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   background-color: white;
+   transform:translate(-50% , -50%) ;
+   -webkit-transform:translate(-50% , -50%) ;
+   -moz-transform:translate(-50% , -50%) ;
+   -ms-transform:translate(-50% , -50%) ;
+   -o-transform:translate(-50% , -50%) ;
+}
+
+
+.dote{
+  z-index: 9999999 ;
+}
+
+.header-content h1{
+    font-size: 70px;
+}
+.header-content h4{
+    font-size: 40px;
+}
+
+.header-content h4::after{
+    content: "";
+    animation: style 5s infinite alternate;
+    -webkit-animation: style 10s infinite alternate;
+}
+
+@keyframes style {
+    0%{content:"|";}
+    2%{content:"D|";}
+    4%{content:"De|";}
+    6%{content:"Des|";}
+    8%{content:"Desi|";}
+    10%{content:"Desig|";}
+    12%{content:"Design|";}
+    14%{content:"Designe|";}
+    16%{content:"Designer|";}
+    18%{content:"Designer|";}
+    20%{content:"Designer|";}
+    22%{content:"De|";}
+    24%{content:"Dev|";}
+    26%{content:"Deve|";}
+    28%{content:"Devel|";}
+    30%{content:"Develo|";}
+    32%{content:"Develop|";}
+    34%{content:"Develope|";}
+    36%{content:"Developer|";}
+    38%{content:"|";}
+    40%{content:"|";}
+    42%{content:"|";}
+    44%{content:"|";}
+    46%{content:"|";}
+    48%{content:"Ph|";}
+    50%{content:"Pho|";}
+    52%{content:"Phot|";}
+    54%{content:"Photo|";}
+    56%{content:"Photog|";}
+    58%{content:"Photogr|";}
+    60%{content:"Photogra|";}
+    62%{content:"Photograp|";}
+    64%{content:"Photograph|";}
+    66%{content:"Photographe|";}
+    68%{content:"Photographer|";}
+    70%{content:"|";}
+    72%{content:"Fr|";}
+    74%{content:"Fre|";}
+    76%{content:"Free|";}
+    78%{content:"Freel|";}
+    80%{content:"Freela|";}
+    82%{content:"Freelan|";}
+    84%{content:"Freelanc|";}
+    86%{content:"Freelance|";}
+    88%{content:"Freelancer|";}
+    90%{content:"|";}
+    92%{content:"|";}
+    94%{content:"|";}
+    96%{content:"|";}
+    98%{content:"|";}
+    100%{content:"|";}
+    
+}
+li{
+    list-style: none;
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+article h2{
+    position: relative;
+}
+article h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:blue;
+    margin-top: 5px;
+}
+article p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.about{
+    background-color: #F5F5F5;
+}
+.services-header p{
+    position: relative;
+}
+.services-header p::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 50px;
+    height: 5px;
+    background-color: blue;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    margin-top: 10px;
+}
+.services-header h2{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.icon .fa-solid  {
+    font-size: 40px;
+}
+.icon .fa-regular{
+    font-size: 40px;
+}
+.services{
+    background-color:  #F5F5F5;
+}
+
+.icon{
+    width: 40%;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    
+}
+.more:hover .icon{
+     background-color: #0078FF;
+     color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.test{
+ background-image: url(../imag/post-3.jpg);
+ background-size: 100% ,100%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+.test-content{
+    z-index: 9999;
+}
+.one h3::after{
+    content: "450";
+    animation: 1s move1;
+    -webkit-animation: 1s move1;
+}
+@keyframes move1{
+    0%{content: "0";}
+    10%{content: "50";}
+    20%{content: "100";}
+    30%{content: "150";}
+    40%{content: "200";}
+    50%{content: "250";}
+    60%{content: "300";}
+    70%{content: "350";}
+    80%{content: "400";}
+    90%{content: "420";}
+    100%{content: "450";}
+}
+.two h3::after{
+    content: "25";
+    animation: move2 1s;
+    -webkit-animation: move2 1s;
+}
+@keyframes move2 {
+    0%{content: "0";}
+    25%{content: "10";}
+    50%{content: "15";}
+    75%{content: "20";}
+    100%{content: "25";}
+}
+.three h3::after{
+    content: "550";
+    animation: move3 1s;
+    -webkit-animation: move3 1s;
+}
+@keyframes move3{
+    0%{content: "0";}
+    10%{content: "50";}
+    20%{content: "100";}
+    30%{content: "150";}
+    40%{content: "250";}
+    50%{content: "300";}
+    60%{content: "350";}
+    70%{content: "400";}
+    80%{content: "450";}
+    90%{content: "500";}
+    100%{content: "550";}
+}
+.four h3::after{
+    content: "48";
+    animation: move4 1s;
+    -webkit-animation: move4 1s;
+}
+@keyframes move4 {
+    0%{content: "0";}
+    25%{content: "10";}
+    50%{content: "20";}
+    75%{content: "25";}
+    100%{content: "30";}
+    100%{content: "39";}
+    100%{content: "48";}
+}
+
+
+
+
+
+.portfolio-header p{
+    position: relative;
+}
+.portfolio-header p::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 40px;
+    height: 5px;
+    background-color:rgb(0, 81, 255);
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    margin-top: 10px;
+}
+.portfolio-header h2{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.portfolio{
+    background-color: #F5F5F5;
+}
+.fa-circle-plus{
+    font-size: 40px;
+}
+.port-text p{
+    font-size: 13px;
+}
+.port a{
+    overflow: hidden;
+}
+
+.port img{
+    transition: 1s  all ;
+    -webkit-transition: 1s  all ;
+    -moz-transition: 1s  all ;
+    -ms-transition: 1s  all ;
+    -o-transition: 1s  all ;
+}
+.port:hover img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+
+.post{
+    background-image: url(../imag/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% , 100%;
+}
+.post-content{
+    z-index: 999;
+}
+
+
+
+
+.blog{
+    background-color: #F5F5F5;
+}
+.blog-header p{
+    position: relative;
+}
+.blog-header p::after{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 50px;
+    height: 5px;
+    background-color: rgb(46, 102, 187);
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    margin-top: 10px;
+}
+.blog-header h2{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.card-title a{
+ text-decoration: none;
+ color: black;
+ transition: 0.5s all;
+ -webkit-transition: 0.5s all;
+ -moz-transition: 0.5s all;
+ -ms-transition: 0.5s all;
+ -o-transition: 0.5s all;
+}
+.card-title:hover a{
+    color:blue;
+}
+
+.item1::after{
+    content: "TRAVEL";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 70px;
+    height: 30px;
+    background-color: #0078FF;
+    color: white;
+    text-align: center;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2::after{
+    content: "WEB DESIGN";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 90px;
+    height: 30px;
+    background-color: #0078FF;
+    color: white;
+    text-align: center;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    width: 15%;
+}
+.card-footer span{
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.card-footer a:hover span{
+    color: #0078FF;
+}
+.contact{
+    background-image: url(../imag/overlay-bg.jpg);
+    background-size: 100% , 100%;
+    background-attachment: fixed;
+    overflow: auto;
+}
+.contant-content{
+    z-index: 9999;
+}
+.contact-header h2::after{
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width:100px;
+      height:4px;
+      background-color: blue;
+      margin-top: 10px;
+}
+.click button{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.click button:hover {
+    background-color: #0084ff;
+    border: 5px solid lightblue;
+}
+
+.point{
+    transition:  1s all;
+    -webkit-transition:  1s all;
+    -moz-transition:  1s all;
+    -ms-transition:  1s all;
+    -o-transition:  1s all;
+}
+.point .fa-brands:hover{
+    color: white;
+}
+.point:hover{
+    background-color: #0078FF;
+    border: lightblue;
+}
+.end h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.end span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.box{
+    bottom: 10px;
+    right: 10px;
+    z-index: 999999999999;
+    
+    
+}
